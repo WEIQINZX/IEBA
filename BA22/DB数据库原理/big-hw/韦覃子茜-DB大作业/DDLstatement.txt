@@ -1,0 +1,56 @@
+---DDL statements---
+CREATE TABLE users (
+	id INTEGER NOT NULL,
+	username VARCHAR(255) NOT NULL,
+	password VARCHAR(255) NOT NULL,
+	create_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE goods(
+	id integer NOT NULL,
+	name varchar(255) NOT NULL,
+	description varchar(1024),
+	img varchar(255),
+	price decimal(10,2) NOT NULL,
+	owner integer NOT NULL,
+	exempt_postage bool not null,
+	PRIMARY KEY(id),
+	foreign key(owner) REFERENCES users(id)
+);
+
+CREATE TABLE address(
+	id INTEGER NOT NULL,
+	user_id integer not null,
+	name varchar(255) not null,
+	phone varchar(255) not null,
+	location varchar(255) not null,
+	primary key(id),
+	foreign key(user_id) references users(id)
+);
+
+CREATE TABLE orders(
+	id INTEGER NOT NULL,
+	user_id INTEGER NOT NULL,
+	goods_id INTEGER NOT NULL,
+	state INTEGER NOT NULL,
+	address_id INTEGER,
+	express_code VARCHAR(255),
+	express_company VARCHAR(255),
+	PRIMARY KEY(id),
+	FOREIGN KEY (user_id) REFERENCES users(id),
+	FOREIGN KEY (goods_id) REFERENCES goods(id),
+	FOREIGN KEY (address_id) REFERENCES address(id)
+);
+
+CREATE TABLE comment(
+	id integer not null,
+	user_id integer not null,
+	goods_id integer not null,
+	content varchar(1024) not null,
+	create_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	primary key(id),
+	foreign key(user_id) references users(id),
+	foreign key(goods_id) references goods(id)
+);
+
