@@ -1,0 +1,2942 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 韦覃子茜2020011395ERD.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11in" height="11in" viewBox="0 0 792 792"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st20">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:prompt="" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st2 {fill:#f2f2f2;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st3 {fill:#5b9bd5;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st4 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st5 {fill:#5b9bd5;font-family:Calibri;font-size:0.833336em}
+		.st6 {fill:#1e4e79}
+		.st7 {fill:#1e4e79;font-family:Calibri;font-size:0.833336em}
+		.st8 {stroke:#5592c9;stroke-dasharray:0.5,1;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st9 {fill:#2e75b5}
+		.st10 {marker-end:url(#mrkr25-370);marker-start:url(#mrkr29-368);stroke:#5592c9;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st11 {fill:#5592c9;fill-opacity:1;stroke:#5592c9;stroke-opacity:1;stroke-width:0.16556291390728}
+		.st12 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st13 {fill:#41719d;font-family:Calibri;font-size:0.666664em}
+		.st14 {marker-end:url(#mrkr29-382);marker-start:url(#mrkr25-380);stroke:#5592c9;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st15 {marker-end:url(#mrkr25-370);marker-start:url(#mrkr25-380);stroke:#5592c9;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st16 {marker-end:url(#mrkr30-443);marker-start:url(#mrkr25-380);stroke:#5592c9;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st17 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st18 {fill:#5b9bd5;font-family:宋体;font-size:1.00001em}
+		.st19 {font-family:Calibri;font-size:1em}
+		.st20 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend29">
+			<path
+					d="M 2.25 0.75 C 1.83579 0.75 1.5 0.414214 1.5 0 1.5 -0.414214 1.83579 -0.75 2.25 -0.75 2.66421 -0.75 3 -0.414214 3 0 3 0.414214 2.66421 0.75 2.25 0.75 Z M 0 -0.75 L 1.5 0 L 0 0.75 M 1.5 0 L 0 0 "
+					style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr29-368" class="st11" v:arrowType="29" v:arrowSize="2" v:setback="17.4" refX="17.4" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend29" transform="scale(6.04) "/>
+		</marker>
+		<g id="lend25">
+			<path d="M 1.5 -0.75 L 1.5 0.75 M 2.25 -0.75 L 2.25 0.75 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr25-370" class="st11" v:arrowType="25" v:arrowSize="2" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend25" transform="scale(-6.04,-6.04) "/>
+		</marker>
+		<marker id="mrkr25-380" class="st11" v:arrowType="25" v:arrowSize="2" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend25" transform="scale(6.04) "/>
+		</marker>
+		<marker id="mrkr29-382" class="st11" v:arrowType="29" v:arrowSize="2" v:setback="18.12" refX="-18.12" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend29" transform="scale(-6.04,-6.04) "/>
+		</marker>
+		<g id="lend30">
+			<path
+					d="M 2.25 0.75 C 1.83579 0.75 1.5 0.414214 1.5 0 1.5 -0.414214 1.83579 -0.75 2.25 -0.75 2.66421 -0.75 3 -0.414214 3 0 3 0.414214 2.66421 0.75 2.25 0.75 Z M 0.75 -0.75 L 0.75 0.75 M 1.5 0 L 0 0 "
+					style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr30-443" class="st11" v:arrowType="30" v:arrowSize="2" v:setback="18.12" refX="-18.12" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend30" transform="scale(-6.04,-6.04) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="group38-1" transform="translate(56.6929,-383.271)" v:mID="38" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListDirection" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListItemMaster1" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster2" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster3" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster4" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbEntity)"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(DbListItem)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="msvSDListSpacing" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(1.555):24"/>
+				<v:ud v:nameU="TypeWidth" v:prompt="" v:val="VT0(0.70866141732283):24"/>
+				<v:ud v:nameU="TypeWidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Test" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(Goods)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(Goods)"/>
+			</v:userDefs>
+			<title>实体.13</title>
+			<g id="shape39-2" v:mID="39" v:groupContext="shape" transform="translate(0,-311.217)">
+				<title>工作表.39</title>
+				<v:userDefs>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<path d="M0 792 L184.25 792 L0 792 Z" class="st1"/>
+			</g>
+			<g id="shape40-4" v:mID="40" v:groupContext="shape">
+				<title>工作表.40</title>
+				<rect x="0" y="480.783" width="184.252" height="311.217" class="st2"/>
+			</g>
+			<g id="shape41-6" v:mID="41" v:groupContext="shape" transform="translate(925.228,511.964) rotate(90)">
+				<title>工作表.41</title>
+				<v:userDefs>
+					<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.7913385826772):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+				</v:userDefs>
+			</g>
+			<g id="shape42-8" v:mID="42" v:groupContext="shape" transform="translate(0,-280.036)">
+				<title>工作表.42</title>
+				<desc>Goods</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="776.409" width="184.26" height="31.1811"/>
+				<rect x="0" y="760.819" width="184.252" height="31.1811" class="st3"/>
+				<text x="76.51" y="780.01" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Goods</text>			</g>
+			<g id="shape38-11" v:mID="38" v:groupContext="groupContent"/>
+		</g>
+		<g id="group84-12" transform="translate(290.551,-338.088)" v:mID="84" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListDirection" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListItemMaster1" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster2" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster3" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster4" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbEntity)"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(DbListItem)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="msvSDListSpacing" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(1.555):24"/>
+				<v:ud v:nameU="TypeWidth" v:prompt="" v:val="VT0(0.70866141732283):24"/>
+				<v:ud v:nameU="TypeWidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Test" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(User)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(User)"/>
+			</v:userDefs>
+			<title>实体.13.84</title>
+			<g id="shape85-13" v:mID="85" v:groupContext="shape" transform="translate(0,-87.1884)">
+				<title>工作表.85</title>
+				<v:userDefs>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<path d="M0 792 L184.25 792 L0 792 Z" class="st1"/>
+			</g>
+			<g id="shape86-15" v:mID="86" v:groupContext="shape">
+				<title>工作表.86</title>
+				<rect x="0" y="704.812" width="184.252" height="87.1884" class="st2"/>
+			</g>
+			<g id="shape87-17" v:mID="87" v:groupContext="shape" transform="translate(925.228,735.993) rotate(90)">
+				<title>工作表.87</title>
+				<v:userDefs>
+					<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.7913385826772):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+				</v:userDefs>
+			</g>
+			<g id="shape88-19" v:mID="88" v:groupContext="shape" transform="translate(0,-56.0073)">
+				<title>工作表.88</title>
+				<desc>User</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="776.409" width="184.26" height="31.1811"/>
+				<rect x="0" y="760.819" width="184.252" height="31.1811" class="st3"/>
+				<text x="80.85" y="780.01" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>User</text>			</g>
+			<g id="shape84-22" v:mID="84" v:groupContext="groupContent"/>
+		</g>
+		<g id="group107-23" transform="translate(545.669,-466.847)" v:mID="107" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListDirection" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListItemMaster1" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster2" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster3" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster4" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbEntity)"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(DbListItem)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="msvSDListSpacing" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(1.555):24"/>
+				<v:ud v:nameU="TypeWidth" v:prompt="" v:val="VT0(0.70866141732283):24"/>
+				<v:ud v:nameU="TypeWidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Test" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(Application)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(Application)"/>
+			</v:userDefs>
+			<title>实体.13.107</title>
+			<g id="shape108-24" v:mID="108" v:groupContext="shape" transform="translate(0,-143.196)">
+				<title>工作表.108</title>
+				<v:userDefs>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<path d="M0 792 L184.25 792 L0 792 Z" class="st1"/>
+			</g>
+			<g id="shape109-26" v:mID="109" v:groupContext="shape">
+				<title>工作表.109</title>
+				<rect x="0" y="648.804" width="184.252" height="143.196" class="st2"/>
+			</g>
+			<g id="shape110-28" v:mID="110" v:groupContext="shape" transform="translate(925.228,679.985) rotate(90)">
+				<title>工作表.110</title>
+				<v:userDefs>
+					<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.7913385826772):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+				</v:userDefs>
+			</g>
+			<g id="shape111-30" v:mID="111" v:groupContext="shape" transform="translate(0,-112.015)">
+				<title>工作表.111</title>
+				<desc>Application</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="776.409" width="184.26" height="31.1811"/>
+				<rect x="0" y="760.819" width="184.252" height="31.1811" class="st3"/>
+				<text x="64.48" y="780.01" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Application</text>			</g>
+			<g id="shape107-33" v:mID="107" v:groupContext="groupContent"/>
+		</g>
+		<g id="group129-34" transform="translate(552.756,-81.4991)" v:mID="129" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListDirection" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListItemMaster1" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster2" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster3" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster4" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbEntity)"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(DbListItem)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="msvSDListSpacing" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(1.555):24"/>
+				<v:ud v:nameU="TypeWidth" v:prompt="" v:val="VT0(0.70866141732283):24"/>
+				<v:ud v:nameU="TypeWidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Test" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(Order)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(Order)"/>
+			</v:userDefs>
+			<title>实体.13.129</title>
+			<g id="shape130-35" v:mID="130" v:groupContext="shape" transform="translate(0,-255.21)">
+				<title>工作表.130</title>
+				<v:userDefs>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<path d="M0 792 L184.25 792 L0 792 Z" class="st1"/>
+			</g>
+			<g id="shape131-37" v:mID="131" v:groupContext="shape">
+				<title>工作表.131</title>
+				<rect x="0" y="536.79" width="184.252" height="255.21" class="st2"/>
+			</g>
+			<g id="shape132-39" v:mID="132" v:groupContext="shape" transform="translate(925.228,567.971) rotate(90)">
+				<title>工作表.132</title>
+				<v:userDefs>
+					<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.7913385826772):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+				</v:userDefs>
+			</g>
+			<g id="shape133-41" v:mID="133" v:groupContext="shape" transform="translate(0,-224.029)">
+				<title>工作表.133</title>
+				<desc>Order</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="776.409" width="184.26" height="31.1811"/>
+				<rect x="0" y="760.819" width="184.252" height="31.1811" class="st3"/>
+				<text x="77.83" y="780.01" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Order</text>			</g>
+			<g id="shape129-44" v:mID="129" v:groupContext="groupContent"/>
+		</g>
+		<g id="group171-45" transform="translate(61.4242,-112.859)" v:mID="171" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListDirection" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListItemMaster1" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster2" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster3" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster4" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbEntity)"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(DbListItem)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="msvSDListSpacing" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(1.555):24"/>
+				<v:ud v:nameU="TypeWidth" v:prompt="" v:val="VT0(0.70866141732283):24"/>
+				<v:ud v:nameU="TypeWidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Test" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(Comment)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(Comment)"/>
+			</v:userDefs>
+			<title>实体.13.171</title>
+			<g id="shape172-46" v:mID="172" v:groupContext="shape" transform="translate(0,-171.199)">
+				<title>工作表.172</title>
+				<v:userDefs>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<path d="M0 792 L182.36 792 L0 792 Z" class="st1"/>
+			</g>
+			<g id="shape173-48" v:mID="173" v:groupContext="shape">
+				<title>工作表.173</title>
+				<rect x="0" y="620.801" width="182.355" height="171.199" class="st2"/>
+			</g>
+			<g id="shape174-50" v:mID="174" v:groupContext="shape" transform="translate(923.332,651.982) rotate(90)">
+				<title>工作表.174</title>
+				<v:userDefs>
+					<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.7913385826772):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.8240512326772):24"/>
+				</v:userDefs>
+			</g>
+			<g id="shape175-52" v:mID="175" v:groupContext="shape" transform="translate(0,-140.018)">
+				<title>工作表.175</title>
+				<desc>Comment</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.1777" cy="776.409" width="182.36" height="31.1811"/>
+				<rect x="0" y="760.819" width="182.355" height="31.1811" class="st3"/>
+				<text x="67.08" y="780.01" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Comment</text>			</g>
+			<g id="shape171-55" v:mID="171" v:groupContext="groupContent"/>
+		</g>
+		<g id="group197-56" transform="translate(290.551,-134.329)" v:mID="197" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(List)"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListAlignment" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDListDirection" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDListItemMaster1" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster2" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster3" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvSDListItemMaster4" v:prompt="" v:val="VT0(254):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbEntity)"/>
+				<v:ud v:nameU="msvSDListRequiredCategories" v:prompt="" v:val="VT4(DbListItem)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="msvSDListSpacing" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(1.555):24"/>
+				<v:ud v:nameU="TypeWidth" v:prompt="" v:val="VT0(0.70866141732283):24"/>
+				<v:ud v:nameU="TypeWidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Test" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(实体名称)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="EntityName" v:prompt="" v:val="VT4(Address)"/>
+				<v:ud v:nameU="EntityNameSpace" v:prompt="" v:val="VT4(Address)"/>
+			</v:userDefs>
+			<title>实体.13.197</title>
+			<g id="shape198-57" v:mID="198" v:groupContext="shape" transform="translate(0,-143.196)">
+				<title>工作表.198</title>
+				<v:userDefs>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<path d="M0 792 L184.25 792 L0 792 Z" class="st1"/>
+			</g>
+			<g id="shape199-59" v:mID="199" v:groupContext="shape">
+				<title>工作表.199</title>
+				<rect x="0" y="648.804" width="184.252" height="143.196" class="st2"/>
+			</g>
+			<g id="shape200-61" v:mID="200" v:groupContext="shape" transform="translate(925.228,679.985) rotate(90)">
+				<title>工作表.200</title>
+				<v:userDefs>
+					<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.7913385826772):24"/>
+					<v:ud v:nameU="ControlsX" v:prompt="" v:val="VT0(1.8503936226772):24"/>
+				</v:userDefs>
+			</g>
+			<g id="shape201-63" v:mID="201" v:groupContext="shape" transform="translate(0,-112.015)">
+				<title>工作表.201</title>
+				<desc>Address</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+					<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="776.409" width="184.26" height="31.1811"/>
+				<rect x="0" y="760.819" width="184.252" height="31.1811" class="st3"/>
+				<text x="72.58" y="780.01" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Address</text>			</g>
+			<g id="shape197-66" v:mID="197" v:groupContext="groupContent"/>
+		</g>
+		<g id="group43-67" transform="translate(56.6929,-635.303)" v:mID="43" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(goods_num)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>主键属性.43</title>
+			<desc>goods_num</desc>
+			<g id="shape43-68" v:mID="43" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>goods_num</text>			</g>
+			<g id="shape44-71" v:mID="44" v:groupContext="shape" transform="translate(133.228,-0.0851841)">
+				<title>工作表.44</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,2)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape45-73" v:mID="45" v:groupContext="shape" transform="translate(12.7559,0.0840109)">
+				<title>Primary Key Attribute.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="784" width="12.06" height="12.0036"/>
+			</g>
+			<g id="shape46-74" v:mID="46" v:groupContext="shape" transform="translate(4.25197,-5.58189)">
+				<title>Primary Key Attribute.12</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st6"/>
+				<text x="8.5" y="786.5" class="st7" v:langID="2052"><v:paragraph/><v:tabList/>PK</text>			</g>
+		</g>
+		<g id="shape47-78" v:mID="47" v:groupContext="shape" transform="translate(56.6929,-635.303)">
+			<title>主键分隔符.47</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbPkSeparator;DbListItem)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+			</v:userDefs>
+			<path d="M0 792 L184.25 792" class="st8"/>
+		</g>
+		<g id="group48-81" transform="translate(56.6929,-579.296)" v:mID="48" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(seller)"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.48</title>
+			<desc>seller</desc>
+			<g id="shape48-82" v:mID="48" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>seller</text>			</g>
+			<g id="shape49-85" v:mID="49" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.49</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape50-87" v:mID="50" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+			<g id="shape51-90" v:mID="51" v:groupContext="shape" transform="translate(12.7559,0)">
+				<title>Attribute.6</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+		</g>
+		<g id="group52-92" transform="translate(56.6929,-607.3)" v:mID="52" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(goods_name)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.52</title>
+			<desc>goods_name</desc>
+			<g id="shape52-93" v:mID="52" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>goods_name</text>			</g>
+			<g id="shape53-96" v:mID="53" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.53</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape54-98" v:mID="54" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group60-100" transform="translate(56.6929,-551.293)" v:mID="60" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(description)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性</title>
+			<desc>description</desc>
+			<g id="shape60-101" v:mID="60" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>description</text>			</g>
+			<g id="shape61-104" v:mID="61" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.61</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape62-106" v:mID="62" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group64-108" transform="translate(56.6929,-523.289)" v:mID="64" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(image)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(6):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.64</title>
+			<desc>image</desc>
+			<g id="shape64-109" v:mID="64" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>image</text>			</g>
+			<g id="shape65-112" v:mID="65" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.65</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape66-114" v:mID="66" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group68-116" transform="translate(56.6929,-495.285)" v:mID="68" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(price)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(7):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.68</title>
+			<desc>price</desc>
+			<g id="shape68-117" v:mID="68" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>price</text>			</g>
+			<g id="shape69-120" v:mID="69" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.69</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape70-122" v:mID="70" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group72-124" transform="translate(56.6929,-467.282)" v:mID="72" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(postage)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(8):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.72</title>
+			<desc>postage</desc>
+			<g id="shape72-125" v:mID="72" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>postage</text>			</g>
+			<g id="shape73-128" v:mID="73" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.73</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape74-130" v:mID="74" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group76-132" transform="translate(56.6929,-439.278)" v:mID="76" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(a_num)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(9):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.76</title>
+			<desc>a_num</desc>
+			<g id="shape76-133" v:mID="76" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>a_num</text>			</g>
+			<g id="shape77-136" v:mID="77" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.77</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape78-138" v:mID="78" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group80-140" transform="translate(56.6929,-383.271)" v:mID="80" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(current_state)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(11):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.80</title>
+			<desc>current_state</desc>
+			<g id="shape80-141" v:mID="80" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>current_state</text>			</g>
+			<g id="shape81-144" v:mID="81" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.81</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape82-146" v:mID="82" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group89-148" transform="translate(290.551,-366.091)" v:mID="89" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(username)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>主键属性</title>
+			<desc>username</desc>
+			<g id="shape89-149" v:mID="89" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>username</text>			</g>
+			<g id="shape90-152" v:mID="90" v:groupContext="shape" transform="translate(133.228,-0.0851841)">
+				<title>工作表.90</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,2)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape91-154" v:mID="91" v:groupContext="shape" transform="translate(12.7559,0.0840109)">
+				<title>Primary Key Attribute.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="784" width="12.06" height="12.0036"/>
+			</g>
+			<g id="shape92-155" v:mID="92" v:groupContext="shape" transform="translate(4.25197,-5.58189)">
+				<title>Primary Key Attribute.12</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st6"/>
+				<text x="8.5" y="786.5" class="st7" v:langID="2052"><v:paragraph/><v:tabList/>PK</text>			</g>
+		</g>
+		<g id="shape93-159" v:mID="93" v:groupContext="shape" transform="translate(290.551,-366.091)">
+			<title>主键分隔符</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbPkSeparator;DbListItem)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+			</v:userDefs>
+			<path d="M0 792 L184.25 792" class="st8"/>
+		</g>
+		<g id="group94-162" transform="translate(290.551,-338.088)" v:mID="94" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(password)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.94</title>
+			<desc>password</desc>
+			<g id="shape94-163" v:mID="94" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>password</text>			</g>
+			<g id="shape95-166" v:mID="95" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.95</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape96-168" v:mID="96" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group112-170" transform="translate(545.669,-494.85)" v:mID="112" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(buyer)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>主键属性.112</title>
+			<desc>buyer</desc>
+			<g id="shape112-171" v:mID="112" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>buyer</text>			</g>
+			<g id="shape113-174" v:mID="113" v:groupContext="shape" transform="translate(133.228,-0.0851841)">
+				<title>工作表.113</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,2)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape114-176" v:mID="114" v:groupContext="shape" transform="translate(12.7559,0.0840109)">
+				<title>Primary Key Attribute.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+			<g id="shape115-178" v:mID="115" v:groupContext="shape" transform="translate(4.25197,-5.58189)">
+				<title>Primary Key Attribute.12</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+		</g>
+		<g id="shape116-181" v:mID="116" v:groupContext="shape" transform="translate(545.669,-550.858)">
+			<title>主键分隔符.116</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbPkSeparator;DbListItem)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+			</v:userDefs>
+			<path d="M0 792 L184.25 792" class="st8"/>
+		</g>
+		<g id="group121-184" transform="translate(545.669,-466.847)" v:mID="121" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(approval)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.121</title>
+			<desc>approval</desc>
+			<g id="shape121-185" v:mID="121" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>approval</text>			</g>
+			<g id="shape122-188" v:mID="122" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.122</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape123-190" v:mID="123" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group125-192" transform="translate(545.669,-522.854)" v:mID="125" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(goods_num)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>主键属性.125</title>
+			<desc>goods_num</desc>
+			<g id="shape125-193" v:mID="125" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>goods_num</text>			</g>
+			<g id="shape126-196" v:mID="126" v:groupContext="shape" transform="translate(133.228,-0.0851841)">
+				<title>工作表.126</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,2)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape127-198" v:mID="127" v:groupContext="shape" transform="translate(12.7559,0.0840109)">
+				<title>Primary Key Attribute.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+			<g id="shape128-200" v:mID="128" v:groupContext="shape" transform="translate(4.25197,-5.58189)">
+				<title>Primary Key Attribute.12</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+		</g>
+		<g id="group134-203" transform="translate(552.756,-221.517)" v:mID="134" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(add_num)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>主键属性.134</title>
+			<desc>add_num</desc>
+			<g id="shape134-204" v:mID="134" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>add_num</text>			</g>
+			<g id="shape135-207" v:mID="135" v:groupContext="shape" transform="translate(133.228,-0.0851841)">
+				<title>工作表.135</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,2)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape136-209" v:mID="136" v:groupContext="shape" transform="translate(12.7559,0.0840109)">
+				<title>Primary Key Attribute.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="-0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+			<g id="shape137-211" v:mID="137" v:groupContext="shape" transform="translate(4.25197,-5.58189)">
+				<title>Primary Key Attribute.12</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+		</g>
+		<g id="shape138-214" v:mID="138" v:groupContext="shape" transform="translate(552.756,-277.525)">
+			<title>主键分隔符.138</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbPkSeparator;DbListItem)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+			</v:userDefs>
+			<path d="M0 792 L184.25 792" class="st8"/>
+		</g>
+		<g id="group143-217" transform="translate(552.756,-249.521)" v:mID="143" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(application_num)"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.143</title>
+			<desc>application_num</desc>
+			<g id="shape143-218" v:mID="143" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>application_num</text>			</g>
+			<g id="shape144-221" v:mID="144" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.144</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape145-223" v:mID="145" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+			<g id="shape146-226" v:mID="146" v:groupContext="shape" transform="translate(12.7559,0)">
+				<title>Attribute.6</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="-0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+		</g>
+		<g id="group151-228" transform="translate(552.756,-193.514)" v:mID="151" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(courier_name)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.151</title>
+			<desc>courier_name</desc>
+			<g id="shape151-229" v:mID="151" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>courier_name</text>			</g>
+			<g id="shape152-232" v:mID="152" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.152</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape153-234" v:mID="153" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group155-236" transform="translate(552.756,-165.51)" v:mID="155" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(courier_num)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(6):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.155</title>
+			<desc>courier_num</desc>
+			<g id="shape155-237" v:mID="155" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>courier_num</text>			</g>
+			<g id="shape156-240" v:mID="156" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.156</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape157-242" v:mID="157" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group159-244" transform="translate(552.756,-109.503)" v:mID="159" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(send_state)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(8):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.159</title>
+			<desc>send_state</desc>
+			<g id="shape159-245" v:mID="159" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>send_state</text>			</g>
+			<g id="shape160-248" v:mID="160" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.160</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape161-250" v:mID="161" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group163-252" transform="translate(552.756,-81.4991)" v:mID="163" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(receive_state)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(9):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.163</title>
+			<desc>receive_state</desc>
+			<g id="shape163-253" v:mID="163" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>receive_state</text>			</g>
+			<g id="shape164-256" v:mID="164" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.164</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape165-258" v:mID="165" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group167-260" transform="translate(552.756,-137.506)" v:mID="167" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(payment_state)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(7):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.167</title>
+			<desc>payment_state</desc>
+			<g id="shape167-261" v:mID="167" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>payment_state</text>			</g>
+			<g id="shape168-264" v:mID="168" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.168</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape169-266" v:mID="169" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group176-268" transform="translate(61.4242,-224.873)" v:mID="176" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(comment_num)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8240512326772):24"/>
+			</v:userDefs>
+			<title>主键属性.176</title>
+			<desc>comment_num</desc>
+			<g id="shape176-269" v:mID="176" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.1777" cy="777.998" width="182.36" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>comment_num</text>			</g>
+			<g id="shape177-272" v:mID="177" v:groupContext="shape" transform="translate(131.332,-0.0851841)">
+				<title>工作表.177</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,2)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape178-274" v:mID="178" v:groupContext="shape" transform="translate(12.7559,0.0840109)">
+				<title>Primary Key Attribute.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="784" width="12.06" height="12.0036"/>
+			</g>
+			<g id="shape179-275" v:mID="179" v:groupContext="shape" transform="translate(4.25197,-5.58189)">
+				<title>Primary Key Attribute.12</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st6"/>
+				<text x="8.5" y="786.5" class="st7" v:langID="2052"><v:paragraph/><v:tabList/>PK</text>			</g>
+		</g>
+		<g id="shape180-279" v:mID="180" v:groupContext="shape" transform="translate(61.4242,-224.873)">
+			<title>主键分隔符.180</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbPkSeparator;DbListItem)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+			</v:userDefs>
+			<path d="M0 792 L182.36 792" class="st8"/>
+		</g>
+		<g id="group181-282" transform="translate(61.4242,-196.87)" v:mID="181" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(goods_num)"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8240512326772):24"/>
+			</v:userDefs>
+			<title>属性.181</title>
+			<desc>goods_num</desc>
+			<g id="shape181-283" v:mID="181" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.1777" cy="777.998" width="182.36" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>goods_num</text>			</g>
+			<g id="shape182-286" v:mID="182" v:groupContext="shape" transform="translate(131.332,0)">
+				<title>工作表.182</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape183-288" v:mID="183" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+			<g id="shape184-291" v:mID="184" v:groupContext="shape" transform="translate(12.7559,0)">
+				<title>Attribute.6</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+		</g>
+		<g id="group185-293" transform="translate(61.4242,-168.866)" v:mID="185" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(comment_by)"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8240512326772):24"/>
+			</v:userDefs>
+			<title>属性.185</title>
+			<desc>comment_by</desc>
+			<g id="shape185-294" v:mID="185" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.1777" cy="777.998" width="182.36" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>comment_by</text>			</g>
+			<g id="shape186-297" v:mID="186" v:groupContext="shape" transform="translate(131.332,0)">
+				<title>工作表.186</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape187-299" v:mID="187" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+			<g id="shape188-302" v:mID="188" v:groupContext="shape" transform="translate(12.7559,0)">
+				<title>Attribute.6</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+		</g>
+		<g id="group189-304" transform="translate(61.4242,-140.863)" v:mID="189" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(comment_detail)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8240512326772):24"/>
+			</v:userDefs>
+			<title>属性.189</title>
+			<desc>comment_detail</desc>
+			<g id="shape189-305" v:mID="189" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.1777" cy="777.998" width="182.36" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>comment_detail</text>			</g>
+			<g id="shape190-308" v:mID="190" v:groupContext="shape" transform="translate(131.332,0)">
+				<title>工作表.190</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape191-310" v:mID="191" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group193-312" transform="translate(61.4242,-112.859)" v:mID="193" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(comment_at)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(6):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8240512326772):24"/>
+			</v:userDefs>
+			<title>属性.193</title>
+			<desc>comment_at</desc>
+			<g id="shape193-313" v:mID="193" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.1777" cy="777.998" width="182.36" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>comment_at</text>			</g>
+			<g id="shape194-316" v:mID="194" v:groupContext="shape" transform="translate(131.332,0)">
+				<title>工作表.194</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape195-318" v:mID="195" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group202-320" transform="translate(290.551,-218.34)" v:mID="202" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(add_num)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503936226772):24"/>
+			</v:userDefs>
+			<title>主键属性.202</title>
+			<desc>add_num</desc>
+			<g id="shape202-321" v:mID="202" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>add_num</text>			</g>
+			<g id="shape203-324" v:mID="203" v:groupContext="shape" transform="translate(133.228,-0.0851841)">
+				<title>工作表.203</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,2)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape204-326" v:mID="204" v:groupContext="shape" transform="translate(12.7559,0.0840109)">
+				<title>Primary Key Attribute.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="784" width="12.06" height="12.0036"/>
+			</g>
+			<g id="shape205-327" v:mID="205" v:groupContext="shape" transform="translate(4.25197,-5.58189)">
+				<title>Primary Key Attribute.12</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st6"/>
+				<text x="8.5" y="786.5" class="st7" v:langID="2052"><v:paragraph/><v:tabList/>PK</text>			</g>
+		</g>
+		<g id="shape206-331" v:mID="206" v:groupContext="shape" transform="translate(290.551,-218.34)">
+			<title>主键分隔符.206</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbPkSeparator;DbListItem)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+			</v:userDefs>
+			<path d="M0 792 L184.25 792" class="st8"/>
+		</g>
+		<g id="group207-334" transform="translate(290.551,-190.336)" v:mID="207" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(username)"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(3):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503936226772):24"/>
+			</v:userDefs>
+			<title>属性.207</title>
+			<desc>username</desc>
+			<g id="shape207-335" v:mID="207" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>username</text>			</g>
+			<g id="shape208-338" v:mID="208" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.208</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape209-340" v:mID="209" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="777.494" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st9"/>
+			</g>
+			<g id="shape210-343" v:mID="210" v:groupContext="shape" transform="translate(12.7559,0)">
+				<title>Attribute.6</title>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKeyText" v:prompt="" v:val="VT4(FK)"/>
+					<v:ud v:nameU="PKRightSide" v:prompt="" v:val="VT0(0.17716535433071):24"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="6.02725" cy="777.998" width="12.06" height="12.0036"/>
+				<text x="0" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>FK</text>			</g>
+		</g>
+		<g id="group211-345" transform="translate(290.551,-162.333)" v:mID="211" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(tel)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503936226772):24"/>
+			</v:userDefs>
+			<title>属性.211</title>
+			<desc>tel</desc>
+			<g id="shape211-346" v:mID="211" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>tel</text>			</g>
+			<g id="shape212-349" v:mID="212" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.212</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape213-351" v:mID="213" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group215-353" transform="translate(290.551,-134.329)" v:mID="215" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(address_detail)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503936226772):24"/>
+			</v:userDefs>
+			<title>属性.215</title>
+			<desc>address_detail</desc>
+			<g id="shape215-354" v:mID="215" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>address_detail</text>			</g>
+			<g id="shape216-357" v:mID="216" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.216</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape217-359" v:mID="217" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="group219-361" transform="translate(240.945,-487.985)" v:mID="219" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(Sells)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.023648182191157):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.013064320574324):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.023648182191154):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(-0.013064320574323):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-0.50471845025191):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-0.50471845025189):32"/>
+			</v:userDefs>
+			<title>关系</title>
+			<desc>Sells</desc>
+			<g id="shape219-362" v:mID="219" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.7556" cy="823.354" width="40" height="17.6036"/>
+				<path d="M7.62 796.21 L7.93 796.38 L113.51 854.71" class="st10"/>
+				<rect v:rectContext="textBkgnd" x="49.5272" y="818.555" width="14.4566" height="9.59985" class="st12"/>
+				<text x="49.53" y="825.75" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Sells</text>			</g>
+		</g>
+		<g id="group224-373" transform="translate(453.623,-425.276)" v:mID="224" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(Sends)"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.019176287463206):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.011783263471853):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.019176287463174):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.011783263471831):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0.55099170401052):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0.55099170401048):32"/>
+			</v:userDefs>
+			<title>关系.224</title>
+			<desc>Sends</desc>
+			<g id="shape224-374" v:mID="224" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="46.0231" cy="763.72" width="40" height="17.6036"/>
+				<path d="M0 792 L84.33 740.18" class="st14"/>
+				<rect v:rectContext="textBkgnd" x="36.4274" y="758.92" width="19.1912" height="9.59985" class="st12"/>
+				<text x="36.43" y="766.12" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Sends</text>			</g>
+		</g>
+		<g id="group229-385" transform="translate(240.945,-545.799)" v:mID="229" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(ApplyTo)"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.063484248104824):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-6.9573039808368E-05):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.06348424810485):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(-6.9573039803927E-05):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-0.0010959098364157):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-0.0010959098363453):32"/>
+			</v:userDefs>
+			<title>关系.229</title>
+			<desc>ApplyTo</desc>
+			<g id="shape229-386" v:mID="229" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="152.362" cy="799.087" width="40" height="17.6036"/>
+				<path d="M0 798.92 L295.66 799.24" class="st14"/>
+				<rect v:rectContext="textBkgnd" x="139.058" y="794.287" width="26.6092" height="9.59985" class="st12"/>
+				<text x="139.06" y="801.49" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ApplyTo</text>			</g>
+		</g>
+		<g id="group234-395" transform="translate(158.186,-284.058)" v:mID="234" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(CommentsOn)"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(-0.00022969014841046):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.020669290647384):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(-0.00022969014840823):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.020669290647129):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5819084978983):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5819084978983):32"/>
+			</v:userDefs>
+			<title>关系.234</title>
+			<desc>CommentsOn</desc>
+			<g id="shape234-396" v:mID="234" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-7.08661" cy="742.394" width="54.57" height="17.6036"/>
+				<path d="M-6.63 783.3 L-6.64 782.94 L-7.64 692.79" class="st10"/>
+				<rect v:rectContext="textBkgnd" x="-29.4651" y="737.594" width="44.7572" height="9.59985" class="st12"/>
+				<text x="-29.47" y="744.79" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CommentsOn</text>			</g>
+		</g>
+		<g id="group239-405" transform="translate(552.756,-277.525)" v:mID="239" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(order_num)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.239</title>
+			<desc>order_num</desc>
+			<g id="shape239-406" v:mID="239" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>order_num</text>			</g>
+			<g id="shape240-409" v:mID="240" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.240</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape241-411" v:mID="241" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st6"/>
+				<text x="8.5" y="786.5" class="st7" v:langID="2052"><v:paragraph/><v:tabList/>PK</text>			</g>
+		</g>
+		<g id="group243-415" transform="translate(552.756,-213.742)" v:mID="243" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(DeliverTo)"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(-0.016240156296099):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.00030340383482352):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(-0.016240156296089):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(-0.00030340383482397):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-3.1229125043503):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-3.1229125043502):32"/>
+			</v:userDefs>
+			<title>关系.243</title>
+			<desc>DeliverTo</desc>
+			<g id="shape243-416" v:mID="243" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-38.9764" cy="799.087" width="40.89" height="17.6036"/>
+				<path d="M0 798.36 L-77.95 799.81" class="st15"/>
+				<rect v:rectContext="textBkgnd" x="-54.5133" y="794.287" width="31.074" height="9.59985" class="st12"/>
+				<text x="-54.51" y="801.49" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DeliverTo</text>			</g>
+		</g>
+		<g id="group271-425" transform="translate(545.669,-550.858)" v:mID="271" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(application_num)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.271</title>
+			<desc>application_num</desc>
+			<g id="shape271-426" v:mID="271" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>application_num</text>			</g>
+			<g id="shape272-429" v:mID="272" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.272</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape273-431" v:mID="273" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+				<path d="M1.7 789.48 L4.25 792 L6.17 790.11 L6.17 783.81 L7.44 783.81 L6.8 782.55 A4.2097 4.2097 -180 1 0 1.7 782.55
+							 L1.06 783.81 L2.34 783.81 L2.34 784.44 L1.38 785.7 L2.98 786.96 L2.98 787.59 L1.7 788.85 L1.7 789.48
+							 Z" class="st6"/>
+				<text x="8.5" y="786.5" class="st7" v:langID="2052"><v:paragraph/><v:tabList/>PK</text>			</g>
+		</g>
+		<g id="group280-435" transform="translate(633.649,-466.847)" v:mID="280" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(DeriveFrom)"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.00058338469289154):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.027111967893378):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.00058338469290042):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(-0.027111967893748):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5492820389705):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-1.5492820389705):32"/>
+			</v:userDefs>
+			<title>关系.280</title>
+			<desc>DeriveFrom</desc>
+			<g id="shape280-436" v:mID="280" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="7.08661" cy="857.069" width="48.01" height="17.6036"/>
+				<path d="M5.69 792 L8.29 913.08" class="st16"/>
+				<rect v:rectContext="textBkgnd" x="-12.0108" y="852.269" width="38.1951" height="9.59985" class="st12"/>
+				<text x="-12.01" y="859.47" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DeriveFrom</text>			</g>
+		</g>
+		<g id="group285-446" transform="translate(243.78,-271.069)" v:mID="285" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(CommentedBy)"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.017532508535923):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.013962245707418):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.017532508535924):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.013962245707417):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0.67251948244149):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0.67251948244146):32"/>
+			</v:userDefs>
+			<title>关系.285</title>
+			<desc>CommentedBy</desc>
+			<g id="shape285-447" v:mID="285" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="42.078" cy="758.491" width="58.1" height="17.6036"/>
+				<path d="M6.81 786.58 L7.09 786.36 L84.16 724.98" class="st10"/>
+				<rect v:rectContext="textBkgnd" x="17.9359" y="753.691" width="48.2844" height="9.59985" class="st12"/>
+				<text x="17.94" y="760.89" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>CommentedBy</text>			</g>
+		</g>
+		<g id="group290-456" transform="translate(375.591,-338.088)" v:mID="290" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbRelationship)"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.03011811023622):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.030118110236221):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4(Has)"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(3.2329428023559E-10):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.012617347237602):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(3.2329428023559E-10):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(-0.012617347237502):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963011719):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-1.5707963011719):32"/>
+			</v:userDefs>
+			<title>关系.290</title>
+			<desc>Has</desc>
+			<g id="shape290-457" v:mID="290" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="7.08661" cy="822.282" width="40" height="17.6036"/>
+				<path d="M7.09 800.7 L7.09 801.06 L7.09 852.56" class="st10"/>
+				<rect v:rectContext="textBkgnd" x="1.11396" y="817.482" width="11.9452" height="9.59985" class="st12"/>
+				<text x="1.11" y="824.68" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Has</text>			</g>
+		</g>
+		<g id="group296-466" transform="translate(56.6929,-411.274)" v:mID="296" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Row_1" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT0(0):26"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Database;DbAttribute;DbListItem)"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(属性名称)"/>
+				<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="Required" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UserWidth" v:prompt="" v:val="VT0(1.875):24"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(1)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(-1):26"/>
+				<v:ud v:nameU="EmblOffset" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Spacer" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.40625):24"/>
+				<v:ud v:nameU="AttributeName" v:prompt="" v:val="VT4(c_num)"/>
+				<v:ud v:nameU="ContainerMargin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="WidthMin" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="DarkColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#5b9bd5)"/>
+				<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#ffffff)"/>
+				<v:ud v:nameU="ItemIndex" v:prompt="" v:val="VT0(10):26"/>
+				<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ListDivLoc" v:prompt="" v:val="VT0(1.8503937007874):24"/>
+			</v:userDefs>
+			<title>属性.296</title>
+			<desc>c_num</desc>
+			<g id="shape296-467" v:mID="296" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(8,8,8,30)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.126" cy="777.998" width="184.26" height="28.0036"/>
+				<text x="30" y="781" class="st5" v:langID="2052"><v:paragraph/><v:tabList/>c_num</text>			</g>
+			<g id="shape297-470" v:mID="297" v:groupContext="shape" transform="translate(133.228,0)">
+				<title>工作表.297</title>
+				<desc>int</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowType" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(8,15,8,8)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="777.998" width="51.03" height="28.0036"/>
+			</g>
+			<g id="shape298-472" v:mID="298" v:groupContext="shape" transform="translate(4.25197,-5.49788)">
+				<title>Attribute.5</title>
+				<desc>PK</desc>
+				<v:userDefs>
+					<v:ud v:nameU="PrimaryKey" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ForeignKey" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.8168" cy="783.496" width="12.63" height="12.0036"/>
+			</g>
+		</g>
+		<g id="shape301-474" v:mID="301" v:groupContext="shape" transform="translate(274.661,-731.181)">
+			<title>工作表.301</title>
+			<desc>韦覃子茜 2020011395 大作业ERD</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108.016" cy="782" width="216.04" height="20"/>
+			<rect x="0" y="772" width="216.032" height="20" class="st17"/>
+			<text x="23.01" y="785.99" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>韦覃子茜<tspan
+						class="st19"> </tspan><tspan class="st19">2020011395 </tspan>大作业<tspan class="st19">ERD</tspan></text>		</g>
+	</g>
+</svg>
