@@ -1,1 +1,2 @@
 就是想试试同时开俩branch，这次是在BA41文件夹地下
+this is a new line to the text file.
