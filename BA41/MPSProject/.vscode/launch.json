@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run MPS Project",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/MPSProject",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "environment": [],
+        "externalConsole": true,
+        "MIMode": "lldb"
+      }
+    ]
+  }
+  
